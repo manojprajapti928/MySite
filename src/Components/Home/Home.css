@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.body{
+    width: 100vw;
+    /* background: linear-gradient(45deg,rgb(124,126,252),rgb(148,120,253),rgb(189,111,253)); */
+    height: 150vh;
+    margin-top: 10vh;
+    /* border: 3px solid red; */
+    /* background-color: red; */
+    /* width: 100%; */
+    /* background-color: rgb(124,126,252); */
+    /* background: linear-gradient(45deg,rgb(124,126,252),rgb(148,120,253),rgb(189,111,253)); */
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    gap: 100px;
+}
+
+.contact-now{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+
+.text{
+    /* position: absolute; */
+    /* top: 50%;
+    left: 55%; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 1em;
+    color: black;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    height: 85px;
+    font-family:  sans-serif;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    flex: start;
+    margin-top: -200px;
+}
+
+
+
+.home-img{
+    /* position: absolute; */
+    margin-left: 85px;
+    /* top: 50%; */
+    margin-top: 80px;
+    
+  
+}
+
+.box{
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 8px;
+    /* margin-left: 0px; */
+    margin-bottom: 20px;
+    flex: start;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+    /* width: ; */
+
+    /* color: white; */
+    color: black;
+    background-image: url(https://cdn.pixabay.com/photo/2022/09/01/14/18/white-background-7425604_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.choice-us{
+  height: 350px;
+  width: 750px;
+  /* border: 1px solid black; */
+  margin-left: 100px;
+  border-radius: 20px;
+  margin-top: 45px;
+ 
+ 
+
+}
+
+
+.choice-us h4{
+   margin-left: 10px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.choice-us h2{
+ 
+  margin-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.choice-us p{
+  margin-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(72, 73, 81);
+}
+
+.home-btn{
+    background-color: transparent;
+    border: 1px solid rgb(42, 48, 136);
+    margin-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+ 
+.home-btn:hover{
+    background-color: rgb(42, 48, 136);
+    color: white;
+}
+  
+
+
+
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 0px; */
+    margin-left: 250px;
+    /* position: relative; */
+  
+}
+
+.Card{
+    width: 300px;
+    height: 200px;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid red; */
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+   border-radius: 10px;
+   position: relative;
+    transition:  0.3s ease;
+    /* z-index: 1; */
+    /* font-size: 50px; */
+   
+ 
+}
+.Card h1{
+    font-size: 1.5rem;
+    margin-top: 60px;
+   margin-left: 32px;
+}
+
+.red{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* background-color: red; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    background: hsla(0, 88%, 48%, 1);
+
+    background: linear-gradient(315deg, hsla(0, 88%, 48%, 1) 19%, hsla(45, 98%, 47%, 1) 74%);
+    
+    background: -moz-linear-gradient(315deg, hsla(0, 88%, 48%, 1) 19%, hsla(45, 98%, 47%, 1) 74%);
+    
+    background: -webkit-linear-gradient(315deg, hsla(0, 88%, 48%, 1) 19%, hsla(45, 98%, 47%, 1) 74%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E70F0F", endColorstr="#ECB202", GradientType=1 );
+}
+
+
+.blue{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* background-color: red; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    background: hsla(240, 89%, 48%, 1);
+
+    background: linear-gradient(135deg, hsla(240, 89%, 48%, 1) 19%, hsla(168, 98%, 47%, 1) 74%);
+    
+    background: -moz-linear-gradient(135deg, hsla(240, 89%, 48%, 1) 19%, hsla(168, 98%, 47%, 1) 74%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(240, 89%, 48%, 1) 19%, hsla(168, 98%, 47%, 1) 74%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0E0EE8", endColorstr="#02EDBE", GradientType=1 );
+}
+
+.green{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* background-color: red; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+
+    background: hsla(116, 66%, 48%, 1);
+
+    background: linear-gradient(135deg, hsla(116, 66%, 48%, 1) 41%, hsla(79, 69%, 43%, 1) 76%);
+    
+    background: -moz-linear-gradient(135deg, hsla(116, 66%, 48%, 1) 41%, hsla(79, 69%, 43%, 1) 76%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(116, 66%, 48%, 1) 41%, hsla(79, 69%, 43%, 1) 76%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#34CC2A", endColorstr="#8ABA22", GradientType=1 );
+}
+.purple{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    /* background-color: red; */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    background: hsla(290, 65%, 48%, 1);
+
+    background: linear-gradient(135deg, hsla(290, 65%, 48%, 1) 20%, hsla(235, 69%, 43%, 1) 67%);
+    
+    background: -moz-linear-gradient(135deg, hsla(290, 65%, 48%, 1) 20%, hsla(235, 69%, 43%, 1) 67%);
+    
+    background: -webkit-linear-gradient(135deg, hsla(290, 65%, 48%, 1) 20%, hsla(235, 69%, 43%, 1) 67%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B12BCC", endColorstr="#222EBA", GradientType=1 );
+}
+
+.Card:hover{
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: rgb(32, 66, 150);
+    color: white;
+}
+
+.offer{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    /* position: absolute; */
+    
+  
+}
+
+.offer h5{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.offer h2{
+    font-size: 2.1rem;
+    
+}
+
+.offer-bg{
+    background-image: url(https://img.freepik.com/premium-photo/white-background-with-orange-white-abstract-wave_165081-28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    /* position: relative; */
+/* border: 2px solid black; */
+
+}
+
+.offer-card{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%; 
+  
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: white;
+    transition:  0.3s ease;
+    /* border: 1px solid red; */
+    /* border: 2px solid black; */
+    /* position: relative; */
+   /* border: 2px solid black; */
+  
+}
+
+
+.offer-card-1{
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    margin: 10px auto;
+    gap: 20px;
+  
+    transition:  0.3s ease;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5pxpx white;
+    background-color: rgb(219, 217, 217);
+    /* border: 3px solid black; */
+
+}
+
+.offer-card-1:hover{
+    color: white;
+    background-color:rgb(32, 66, 150) ;
+    transform: scale(1);
+    box-shadow: 5px 5px 10px 5px rgba(28, 28, 28, 0.5);
+    transition:  0.3s ease;
+}
+
+.offer-card-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.offer-card-title img{
+    height: 90px;
+}
+
+.offer-card-1 p{
+    font-size: 17px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}

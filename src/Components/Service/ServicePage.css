@@ -1,0 +1,131 @@
+.service-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #333;
+    margin-top: 20vh;
+    /* border: 2px solid black; */
+    margin-bottom: -110vh;
+   
+    /* width: 100%; */
+    
+  }
+
+  #mmm{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/697/690/non_2x/blue-white-shapes-background-abstract-with-halftone-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .service-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+  }
+  
+  .service-header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+ 
+  .service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* border: 1px solid red; */
+  }
+ 
+  
+
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); */
+    transform: scale(1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: rgb(32, 66, 150);
+    color: white;
+  }
+  
+ 
+  .service-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card h2 {
+    font-size: 1.5rem;
+    /* color: #2c3e50; */
+    margin-bottom: 1rem;
+  }
+  
+  .service-card p {
+    /* color: #7f8c8d; */
+  }
+  
+  .cta-section {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 3rem;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #2980b9;
+  }
+  
+  @media (max-width: 768px) {
+    .service-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .service-header h1 {
+      font-size: 2rem;
+    }
+    
+    .cta-section h2 {
+      font-size: 1.5rem;
+    }
+  }
