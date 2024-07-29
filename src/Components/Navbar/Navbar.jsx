@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav">
-        <img src="./public/manojlogo.png" alt="" />
+        <img src="https://static.vecteezy.com/system/resources/previews/024/553/534/non_2x/lion-head-logo-mascot-wildlife-animal-illustration-generative-ai-png.png" alt="" />
         
         <div className="navlink">
           <Link to="/">Home</Link>
