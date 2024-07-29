@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav">
-        <img src="./public/manojlogo.png" alt="" />
+        <img src="./public/manojlogo.png" alt="" />jgygughgh
         
         <div className="navlink">
           <Link to="/">Home</Link>
