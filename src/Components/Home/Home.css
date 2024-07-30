@@ -4,18 +4,11 @@
     box-sizing: border-box;
     
 }
-
-
-.body{
-    width: 100vw;
-    /* background: linear-gradient(45deg,rgb(124,126,252),rgb(148,120,253),rgb(189,111,253)); */
-    height: 150vh;
-    margin-top: 10vh;
-    /* border: 3px solid red; */
-    /* background-color: red; */
-    /* width: 100%; */
-    /* background-color: rgb(124,126,252); */
-    /* background: linear-gradient(45deg,rgb(124,126,252),rgb(148,120,253),rgb(189,111,253)); */
+.body {
+  width: 100vw;
+  height: auto; /* Change from fit-content to auto */
+  margin-top: 10vh;
+  margin-bottom: 0; /* Remove negative margin */
 }
 .home{
     display: flex;
@@ -138,7 +131,7 @@
     flex-wrap: wrap;
     /* margin-left: 0px; */
     margin-left: 250px;
-    /* position: relative; */
+    position: relative;
   
 }
 
@@ -349,3 +342,91 @@
     margin-right: 10px;
     
 }
+@media screen and (max-width: 768px) {
+  .body {
+      height: auto; /* Change from 500vh to auto */
+      margin-top: 40vh;
+  }
+
+    .home {
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    .text {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    .text h3{
+        font-size: 0.5rem;
+  
+    }
+  
+    .home-img {
+      margin-left: 0;
+      margin-top: 150px;
+      height: 450px;
+    }
+  
+    .home-img img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+      margin-top: -200px;
+    }
+  
+    .choice-us {
+      width: 90%;
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .Cards {
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .Card {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    .offer-card {
+      width: 95%;
+    }
+  
+    .offer-card-1 {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
+  
+  @media screen and (min-width: 480px) {
+    .body {
+        height: auto; /* Change from 280vh to auto */
+        margin-top: 10vh;
+    }
+    .text h1 {
+      font-size: 1.5em;
+    }
+  
+    .text h3 {
+      font-size: 1em;
+    }
+  
+    .choice-us h2 {
+      font-size: 1.5em;
+    }
+  
+    .Card h1 {
+      font-size: 1.2rem;
+    }
+  
+    .offer h2 {
+      font-size: 1.5rem;
+    }
+  }

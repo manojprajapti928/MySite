@@ -5,7 +5,7 @@
     padding: 2rem;
     color: #333;
     margin-top: 20vh;
-    margin-bottom: -110vh;
+    /* margin-bottom: -110vh; */
   }
   
   #contact-background {
@@ -122,8 +122,16 @@
   }
   
   @media (max-width: 768px) {
+
+    .contact-page{
+        margin-top: 50vh;
+        /* width: 50%; */
+    }
     .contact-grid {
       grid-template-columns: 1fr;
+      min-width: fit-content;
+    
+
     }
     
     .contact-header h1 {

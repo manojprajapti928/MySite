@@ -9,20 +9,19 @@ import Footer from "./Components/Footer/Footer";
 
 export default function App() {
   return (
-    <div>
+    <div className="app-container"> {/* Add this container */}
       <BrowserRouter>
         <Navbar />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/service" element={<Service />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="content-wrapper"> {/* Add this wrapper */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
         <Footer />
-       
       </BrowserRouter>
-      
     </div>
   );
 }

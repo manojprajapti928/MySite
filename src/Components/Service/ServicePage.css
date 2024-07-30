@@ -6,7 +6,7 @@
     color: #333;
     margin-top: 20vh;
     /* border: 2px solid black; */
-    margin-bottom: -110vh;
+    /* margin-bottom: -10vh; */
    
     /* width: 100%; */
     
@@ -115,11 +115,21 @@
   .cta-button:hover {
     background-color: #2980b9;
   }
+
+
   
+
+
   @media (max-width: 768px) {
+
+    #mmm{ 
+      margin-top: 250px;
+     
+    }
     .service-grid {
       grid-template-columns: 1fr;
     }
+
     
     .service-header h1 {
       font-size: 2rem;
