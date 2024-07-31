@@ -53,6 +53,7 @@
     .nav {
       flex-direction: column;
       padding: 10px;
+      transition: 2s;
     }
   
     .nav img {
