@@ -7,8 +7,8 @@
 .body {
   width: 100vw;
   height: auto; /* Change from fit-content to auto */
-  /* margin-top: -100vh; */
-  margin-bottom: 0; /* Remove negative margin */
+  margin-top: 75vh;
+  margin-bottom: 0px; /* Remove negative margin */
   /* top: 15px; */
 }
 .home{
