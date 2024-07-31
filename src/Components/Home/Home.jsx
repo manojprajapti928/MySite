@@ -65,7 +65,7 @@ export default function Home() {
         <br /> <br /> <br />
         <div className="offer">
           <center>
-            <h5>WHY CHOOSE US</h5>
+            <h5>WHY CHOOSE US ?</h5>
             <h2>What We Offer</h2>
           </center>
         </div>

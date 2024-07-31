@@ -6,14 +6,20 @@ import "./Navbar.css";
 export default function Navbar() {
 
   const [bgColor, setBgColor] = useState({marginTop:"0px"});
+  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
-        setBgColor({marginTop:"-270px"});
-      }  else if (window.scrollY<100) {
-        setBgColor({marginTop:"0px"});
+      const currentScrollPos = window.scrollY;
+      const isScrollingDown = currentScrollPos > prevScrollPos;
+
+      if (isScrollingDown) {
+        setBgColor({ marginTop: "-270px" }); // Hide navbar
+      } else {
+        setBgColor({ marginTop: "0px" }); // Show navbar
       }
+
+      setPrevScrollPos(currentScrollPos);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -22,7 +28,8 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [prevScrollPos]);
+
    
 
   return (

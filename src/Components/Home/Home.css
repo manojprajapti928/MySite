@@ -346,6 +346,7 @@
   .body {
       height: auto; /* Change from 500vh to auto */
       margin-top: 40vh;
+      /* top: 55vh; */
   }
 
     .home {
@@ -383,7 +384,7 @@
     .choice-us {
       width: 90%;
       margin-left: 0;
-      margin-bottom: 20px;
+      margin-bottom: 100px;
     }
   
     .Cards {
@@ -409,7 +410,7 @@
   @media screen and (min-width: 480px) {
     .body {
         height: auto; /* Change from 280vh to auto */
-        margin-top: 10vh;
+        margin-top: 40vh;
     }
     .text h1 {
       font-size: 1.5em;
