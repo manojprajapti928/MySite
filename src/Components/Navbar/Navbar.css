@@ -64,7 +64,7 @@
   
     .navlink {
       width: 100%;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
     }
   
@@ -88,4 +88,5 @@
     .navlink a {
       font-size: 14px;
     }
+
   }
