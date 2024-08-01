@@ -13,7 +13,7 @@ export default function Home() {
       <div className="body">
         <div className="home">
           <div className="text">
-            <h1>MANOJ IT SOLUTION</h1>
+            <h1>MANOJ IT SOLUTION </h1>
             <br />
             <h3>IT Services & Web Development & App Development &</h3>
             <h3> Digital Marketing Services & Consulting</h3>

@@ -347,7 +347,7 @@
 @media screen and (max-width: 768px) {
   .body {
       height: auto; /* Change from 500vh to auto */
-      margin-bottom: -250px;
+      margin-bottom: -10px;
       /* top: 55vh; */
   }
 
